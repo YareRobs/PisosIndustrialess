@@ -289,8 +289,8 @@ margin-bottom: 1rem;
 /*quiero aplicar un piso*/
 .imag{
     text-align: center;
-    background-image:url(../IMAGPISOS/conformas3.jpeg);
     background-repeat: repeat;
+    background-image: url(conformas3.jpeg);
     background-size: cover;
     height: 450px;
     position: relative;

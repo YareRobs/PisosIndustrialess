@@ -34,7 +34,7 @@ barra azul (inicio, nosotros)*/
 }/* margin quiere decir , del limite del elemento ahcia afuera*/
 
 .boton {
-    background-color: #eff44b61; /*color de fondo del boton*/
+    background-color: #5f99ae61; /*color de fondo del boton*/
     color: var(--blanco);
     padding: 1rem 3rem; /*seleccionar acho y largo */
     margin-top: 3rem;

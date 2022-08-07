@@ -14,7 +14,6 @@ html{
     scroll-snap-type: y mandatory;
 }
 
-
 /*modelo caja, vox model.... */
 *, *:before, *:after {   /* primero el asteriso selecciona todos los elementos de html */
     box-sizing: inherit;/**/
@@ -26,9 +25,7 @@ body {
     background-image: linear-gradient(to top, rgb(40, 42, 18) 0%, rgb(39, 69, 71)100%);
     /*degradado de color */
 }
-.footer{
- justify-content: center;
-}
+
 /*la clase llamada contenedor va centrar el contenido de botones en la
 barra azul (inicio, nosotros)*/
 .contenedor {  
@@ -180,45 +177,7 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
 .contenido-img p { /*colcoar coma ya q se le aplica el mismo efecto*/
     color: var(--blanco);
 }
-.help {
-    display: flex;
-    align-items: flex-end;
-}
 
-.servicios, .navegacion-principal, .formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-}
-
-/*servicio /
-  /*css grid acede a dos dimenciones de formas en la manera de acomodar */
-@media (min-width: 765px) {
-   .servicios{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} 
-}
-  
-.servicio{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.servicio h3{
-color:rgb(165, 64, 81);
-font-weight: normal;
-
-}
-.servicio .iconos{
-    height: 15rem;
-    width: 15rem;
-    background-color: #0097a7;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 /*CONTACTO*/
 .contactanos{
     background-color:rgba(0, 0, 0, 0.7);

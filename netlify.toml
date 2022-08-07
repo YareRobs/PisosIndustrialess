@@ -1,4 +1,4 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+[[ redirecciones ]]
+de = " /* "
+a = " /index.html "
+estado = 200

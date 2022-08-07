@@ -153,7 +153,7 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
 }
 /*agregando umagen */
 .img {
-    background-image: url(fondo\ fr.jpeg);  /*agregando imagen */
+    background-image: url(../fondo\ fr.jpeg);  /*agregando imagen */
     background-repeat: no-repeat; /* que no se repita a imagen al hacer -zoom*/
     background-size: cover;/*definir tamaño de la imagen */
     height: 455px; /**/

@@ -99,9 +99,7 @@ h1,h2,h3 {
 
 }
 
-.contenido-img  p{
-    font-size: 2.2rem;
-}
+
 /*titulo*/
 .w-100{
  width: 100%;
@@ -176,18 +174,24 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
 .contenido-img h2,/*haciendo color balnco las letras*/
 .contenido-img p { /*colcoar coma ya q se le aplica el mismo efecto*/
     color: white;
-    justify-content: center;
-    margin-left: 3%;
-    margin-right: 5%;
-    margin-top: 0%;
-    margin-bottom: 3%;
+}
+.contenido-img  p{
+    font-size: 2.2rem;
     text-align: center;
 }
-.contenido-img p{
-    font-size: 2rem;
+@media (max-width: 450px){ 
+    .contenido-img {
+        width: 110%;
+        height: 150%;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 5%;
+        margin-top: 0%;
+        margin-bottom: 3%;
+        text-align: center;
+    }
 }
 
-/*CONTACTO*/
 .contactanos{
     background-color:rgba(0, 0, 0, 0.7);
     width: min(60rem, 100%); /**utiliza el valro mas pequeño**/
@@ -252,9 +256,6 @@ margin-bottom: 1rem;
     height: 20rem;
 
 }
-
-
-/*quiero aplicar un piso*/
 .imag{
     text-align: center;
     background-repeat: repeat;
@@ -264,10 +265,6 @@ margin-bottom: 1rem;
     position: relative;
 }
 .imag h2{
-    text-align: center;
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: #fffd6b;
+    color:rgb(188, 188, 73);
+    font-size: 3;
 }

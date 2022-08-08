@@ -182,7 +182,9 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
     margin-top: 0%;
     margin-bottom: 3%;
     text-align: center;
-    font-size: 3rem;
+}
+.contenido-img p{
+    font-size: 2rem;
 }
 
 /*CONTACTO*/

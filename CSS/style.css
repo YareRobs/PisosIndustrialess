@@ -22,7 +22,7 @@ html{
 body {
     font-size: 16px; /*1rem = 10px*/
     font-family: var(--fuente);
-    background-image: linear-gradient(to top, rgb(40, 42, 18) 0%, rgb(39, 69, 71)100%);
+    background-image: linear-gradient(to top, rgb(98, 135, 164) 0%, rgb(39, 69, 71)100%);
     /*degradado de color */
 }
 
@@ -156,7 +156,7 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
     background-image: url(../fondo\ fr.jpeg);  /*agregando imagen */
     background-repeat: no-repeat; /* que no se repita a imagen al hacer -zoom*/
     background-size: cover;/*definir tamaño de la imagen */
-    height: 455px; /**/
+    height: 700px; /**/
     position: relative;/*padre se debe posicionar en relativo para que el hijo line 140 se posiciones en absoluta*/
     margin-bottom: 2rem;
 }
@@ -173,9 +173,14 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
   justify-content: center;
 }
 
-.contenido-img h2,  /*haciendo color balnco las letras*/
+.contenido-img h2,/*haciendo color balnco las letras*/
 .contenido-img p { /*colcoar coma ya q se le aplica el mismo efecto*/
-    color: var(--blanco);
+    color: white;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 3%;
 }
 
 /*CONTACTO*/

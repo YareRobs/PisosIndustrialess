@@ -49,6 +49,8 @@ barra azul (inicio, nosotros)*/
 @media(min-width: 768px) {
     .boton {
         width: auto;
+        flex-direction: column;
+        
     }
 }
 
@@ -86,6 +88,7 @@ h1,h2,h3 {
     font-size: 1rem;
     font-family: 'PT Serif', serif;
     font-weight: 100;
+    color:white;
 
     }
 
@@ -154,9 +157,22 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
     background-image: url(../fondo\ fr.jpeg);  /*agregando imagen */
     background-repeat: no-repeat; /* que no se repita a imagen al hacer -zoom*/
     background-size: cover;/*definir tamaño de la imagen */
-    height: 700px; /**/
+    height: 700px;
+    width: 100%; /**/
     position: relative;/*padre se debe posicionar en relativo para que el hijo line 140 se posiciones en absoluta*/
     margin-bottom: 2rem;
+    
+}
+@media (max-width: 550px){ 
+    .img {
+        background-image: url(../fondo\ fr.jpeg);  /*agregando imagen */
+        background-repeat: no-repeat; /* que no se repita a imagen al hacer -zoom*/
+        background-size: cover;/*definir tamaño de la imagen */
+        height: 700px;
+        width: 100%; /**/
+        position: relative;/*padre se debe posicionar en relativo para que el hijo line 140 se posiciones en absoluta*/
+        margin-bottom: 2rem;
+    }
 }
 
 .contenido-img{   /*personalizar imagen colocarle color de fonfo */

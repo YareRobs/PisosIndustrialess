@@ -216,10 +216,7 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
     border-radius: 3rem;  
 }
 
-.contactanos fieldset{
-    border: none;
-    
-}
+
 .contactanos legend{
     text-align: center;
     font-size: 2rem;

@@ -22,7 +22,7 @@ html{
 body {
     font-size: 16px; /*1rem = 10px*/
     font-family: var(--fuente);
-    background-image: linear-gradient(to top, rgb(98, 135, 164) 0%, rgb(39, 69, 71)100%);
+    background-image: linear-gradient(to top, rgb(88, 139, 177) 5%, rgb(255, 255, 255)100%);
     /*degradado de color */
 }
 
@@ -85,23 +85,29 @@ h1,h2,h3 {
 
 .title{    /*clase titulo*/
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'PT Serif', serif;
-    font-weight: 100;
-    color:white;
-
-    }
+    color:black;
+}
 
 .title span {  /*accediendo a etiqueta de clase (span)*/ 
     font-size: 4rem;
 }
+
 .title P{
     text-align: center;
     font-size: 2rem;
     padding: 0.3px 0.3px;
-
 }
+.title img{
+    justify-content:center;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+  }
+}
 
 /*titulo*/
 .w-100{
@@ -194,6 +200,12 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
 .contenido-img  p{
     font-size: 2.2rem;
     text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 @media (max-width: 550px){ 
     .contenido-img {
@@ -281,3 +293,8 @@ margin-bottom: 1rem;
     color:rgb(188, 188, 73);
     font-size: 3;
 }
+@media(max-width:550px){
+.title img{
+display:grid;
+
+}}

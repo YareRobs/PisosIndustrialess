@@ -88,7 +88,16 @@ h1,h2,h3 {
     font-size: 2rem;
     font-family: 'PT Serif', serif;
     color:black;
-    margin-top: 15%;
+    margin-top: 11%;
+}
+@media (max-width:750px){
+    .title{    /*clase titulo*/
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'PT Serif', serif;
+        color:black;
+        margin-top: 20%;
+    }
 }
 
 .title span {  /*accediendo a etiqueta de clase (span)*/ 
@@ -104,14 +113,23 @@ h1,h2,h3 {
 .imagam{
     background-image: url(../logo1.jpeg);
     background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 255px;
     justify-content:center;
     margin-inline: auto;
-    display: flex;
-    flex-direction: column;
-   
+    display: flex; 
   }
+  @media (max-width:800px){
+    .imagam{
+        background-image: url(../logo1.jpeg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 150px;
+        justify-content:center;
+        margin-inline: auto;
+        display: flex; 
+      }}s
 
-/*titulo*/
 .w-100{
  width: 100%;
 }

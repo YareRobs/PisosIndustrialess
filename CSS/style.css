@@ -88,6 +88,7 @@ h1,h2,h3 {
     font-size: 2rem;
     font-family: 'PT Serif', serif;
     color:black;
+    margin-top: 15%;
 }
 
 .title span {  /*accediendo a etiqueta de clase (span)*/ 
@@ -99,13 +100,15 @@ h1,h2,h3 {
     font-size: 2rem;
     padding: 0.3px 0.3px;
 }
-.title img{
+
+.imagam{
+    background-image: url(../logo1.jpeg);
+    background-repeat: no-repeat;
     justify-content:center;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 15%;
+   
   }
 
 /*titulo*/

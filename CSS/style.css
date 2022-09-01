@@ -228,6 +228,7 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
     margin-left: 5%;
     margin-right: 5%;
 }
+
 @media (max-width: 550px){ 
     .contenido-img {
         width: 110%;
@@ -235,9 +236,9 @@ padding: 1rem 1rem 1rem 1rem; /*rellenando el color de la barra*/
         justify-content: center;
         margin-left: 0%;
         margin-right: 5%;
-        margin-top: 5%%;
+        margin-top: 5%;
         margin-bottom: 3%;
-        text-align: center;
+        text-align:center;
     }
 }
 
